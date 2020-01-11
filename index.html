@@ -6,6 +6,32 @@ Most recent revision:
 <html lang="en">
 	<head>
 		<title>Jose's Portfolio</title>
+		<style>
+			caption {
+				font-weight: bold;
+				font-size: 1.2em;
+				margin-bottom: 8px;
+			}
+			table, th, td {
+				border: 1px solid #233D4D;
+				border-collapse: collapse;
+				padding: 5px 10px;
+			}
+			table {
+				width: 90%;
+				margin: auto;
+			}
+			tr {
+				height: 30px;
+			}
+			th {
+				background-color: #DA2C38;
+				color: white;
+			}
+			tr:nth-child(odd) {
+				background-color: #FFA987;
+			}
+		</style>
 	</head>
 	<body>
 		<main>
@@ -35,27 +61,30 @@ Most recent revision:
 					<img src="images/factory.jpg" alt="Picture of a factory" width="300px" />
 					<table>
 						<caption>Employment History</caption>
-						<tr>
+						<thead>
+							<tr>
 							<th>Years of Employment</th>
 							<th>Title</th>
 							<th>Company</th>
-						</tr>
-						<tr>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
 							<td>2018-2018</td>
 							<td>RSR</td>
 							<td>Schwann's</td>
-						</tr>
-						<tr>
+							</tr>
+							<tr>
 							<td>2018-2019</td>
 							<td>Loader/Unloader & Robot Operator</td>
 							<td>Viracon</td>
-						</tr>
-						</tr>
-						<tr>
+							</tr>
+							<tr>
 							<td>2019-Present</td>
 							<td>Cell Operator</td>
 							<td>Daikin</td>
-						</tr>
+							</tr>
+						</tbody>
 					</table>
 				</article>
 				
