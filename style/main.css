@@ -40,6 +40,19 @@ nav a {
 	width: 100px;
 	float: left;
 }
+
+nav a:visited {
+	color: #FFA987
+}
+nav a:hover {
+	background-color: white;
+	color: #233D4D;
+}
+
+nav a:active {
+	font-weight: bold;
+}
+
 /* Form styling */
 
 label, fieldset{
