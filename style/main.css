@@ -1,7 +1,7 @@
 /*
 Creator: Jose Alba
 Date created: 01/11/2020
-Date last modified:
+Date last modified: 1/1/2020
 */
 body {
 		background-color: #A2D3C2;
@@ -28,6 +28,18 @@ nav {
 	margin-top: 4px;
 }
 
+nav a {
+	background-color: #233D4D;
+    color: white;
+    padding: 8px;
+    border: thin solid black;
+    text-decoration: none;
+    text-align: center;
+	display: block;
+	margin: 20px;
+	width: 100px;
+	float: left;
+}
 /* Form styling */
 
 label, fieldset{
