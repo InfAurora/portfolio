@@ -6,7 +6,10 @@ Date last modified:
 body {
 		background-color: #A2D3C2;
 		font-family: arial, helvetica, sans-serif;
+		max-width: 900px;
+		margin: 0 auto;
 	}
+	
 header, footer {
 	background-color: #233D4D;
 	color: white;
@@ -14,9 +17,11 @@ header, footer {
 	text-align: center;
 	padding: 30px 10px 20px 10px;
 }
+
 h1 {
 	font-size: 2.5em;
 }
+
 nav {
 	border-top: 3px dashed #233D4D;
 	border-bottom: 3px dashed #233D4D;
@@ -74,4 +79,21 @@ textarea {
     border-radius: 3px;
     background-color: #fff;
     resize: none;
+}
+
+/* floating sections*/
+.clear-float {
+	clear:both;
+}
+
+.right-content {
+	float:left;
+}
+
+article img {
+	float:left;
+}
+
+article {
+	margin-bottom: 16px;
 }
